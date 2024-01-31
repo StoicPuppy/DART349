@@ -1,0 +1,56 @@
+*{ 
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    background-color: #888;
+    padding: 20px;
+}
+
+header{
+    background-color: #999;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+/* specificity */
+
+header h2{
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+article{
+    background-color: gainsboro;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+
+/* responsive img */
+
+img{
+    width: 100%;
+}
+
+footer{
+    padding: 20px;
+}
