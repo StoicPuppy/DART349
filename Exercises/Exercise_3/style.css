@@ -12,6 +12,10 @@ nav{
 
 header{
     text-align: center;
+    background-color: darkgrey;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h1{
@@ -43,5 +47,7 @@ aside{
 }
 
 footer{
-
+    text-align: center;
+    position: relative;
+    bottom: 0;
 }
