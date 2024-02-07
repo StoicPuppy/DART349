@@ -30,6 +30,29 @@ nav {
     text-align: center;
 }
 
+/* pseudo class*/
+nav a:link{
+    color: white;
+    text-transform: uppercase;
+    margin-right: 8px;
+}
+
+nav a:visited{
+    color: yellow;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a:active{
+    color: #333;
+}
+
+nav a.active{
+    color: #000;
+}
+
 header {
     background-color: #999;
     text-align: center;
@@ -78,9 +101,14 @@ p{
     font-size: 3em;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
+    background: url(../images/spring.jpg);
     padding: 1em;
     border-left: solid 1em #333;
+}
+
+.multi-col{
+    column-count: 2;
 }
 
 /* responsive img */
