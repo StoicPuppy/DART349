@@ -1,7 +1,9 @@
+/* universal selector applies to all tags */
 * {
     box-sizing: border-box;
+    /* when padding or border*/
 }
-
+/* */
 body {
     background-color: #F2E5E4;
     font-family:Arial, Helvetica, sans-serif;
