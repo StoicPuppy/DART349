@@ -18,7 +18,7 @@
 }
 
 #Rainforest header{
-    color: brown;
+    color: lightgreen;
 }
 
 #Gambling{
@@ -49,7 +49,7 @@ header{
 }
 
 header h1{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 header h2{
@@ -94,15 +94,15 @@ table{
     line-height: normal;
 }
 
-#Figures{
+.Names{
     font-size: 24px;
     text-decoration: underline;
 }
 
-.Figures-desc{
+.desc{
     text-align: center;
     border-style: solid;
-    background-color: aquamarine;
+    background-color: grey;
     table-layout: fixed;
     width: 33%;
 }
