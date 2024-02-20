@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    padding: 5px;
 }
 
 body{
@@ -7,8 +8,83 @@ body{
     margin: 0;
 }
 
-h1{
+header{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
     text-align: center;
+    background-color: aquamarine;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+header h2{
+    text-decoration: underline;
+}
+
+article{
+    max-width: 1000px;
+    width: 100%;
+    margin:0 auto;
+}
+
+article h3{
+    padding-left: 60px;
+    text-decoration: underline;
+}
+
+table{
+    border-style: dotted;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Figures{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#Figures-desc{
+    text-align: center;
+    border-style: solid;
+    background-color: aquamarine;
+    table-layout: fixed;
+    width: 33%;
+}
+
+nav{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    background-color: whitesmoke;
+}
+
+footer{
+    max-width: 1000px;
+    width: 100%;
+    margin:0 auto;
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer tr:hover{
+    background-color: cadetblue;
+}
+nav a:link{
+    color: gray;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav a.active{
+    color: green;
 }
