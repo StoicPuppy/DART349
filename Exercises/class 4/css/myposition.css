@@ -1,0 +1,44 @@
+body{
+    padding-top: 2em;
+}
+
+.fix{
+    background-color: #333;
+    color: #ffff;
+    padding: 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.parent{
+    background-color: gray;
+    width:50%;
+    margin: 0 auto;
+    /* if the parent is relative, the child stays inside */
+    position: relative;
+}
+
+div{
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.rel{
+    background-color: crimson;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.abso{
+    background-color: darkgreen;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
