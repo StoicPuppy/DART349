@@ -12,6 +12,13 @@
     color: aqua;
 }
 
+#Artic article h3{
+    color: aliceblue;
+    background-color: #127;
+    padding: 2%;
+    width: 50%;
+}
+
 #Rainforest{
     background: url(Assets/Rainforest_background.jpg);
     background-size: cover;
@@ -19,6 +26,13 @@
 
 #Rainforest header{
     color: lightgreen;
+}
+
+#Rainforest article h3{
+    color: aliceblue;
+    background-color: darkgreen;
+    padding: 2%;
+    width: 50%;
 }
 
 #Gambling{
@@ -30,6 +44,13 @@
     color: azure;
 }
 
+#Gambling article h3{
+    color: aliceblue;
+    background-color: darkslateblue;
+    padding: 2%;
+    width: 50%;
+}
+
 #scam{
     background: url(Assets/city_background.jpg);
     background-size: cover;
@@ -37,6 +58,13 @@
 
 #scam header{
     color: azure;
+}
+
+#scam article h3{
+    color: aliceblue;
+    background-color: darkred;
+    padding: 2%;
+    width: 50%;
 }
 
 body{
@@ -90,7 +118,7 @@ table{
     font-size: 1.3em;
     line-height: 1.2em;
     font-weight: bold;
-    background-color: lightgray;
+    background-color: gray;
 }
 
 .quote{
@@ -101,6 +129,7 @@ table{
     padding-bottom: 1%;
     padding-top: 1%;
     line-height: normal;
+    border-left: solid 2em #333;
 }
 
 .Names{
